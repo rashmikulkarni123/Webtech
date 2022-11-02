@@ -1,0 +1,13 @@
+<doctype html>
+<html>
+<head>
+<title> Barri java  kaliun la</title>
+</head>
+<body>
+<p> All the content should be visible</p>
+<b> X workzz </b>
+<!--<big> </big>-->
+<u> underline </u>
+<del> Rs 100 </del>
+<!--Special symbol-->
+<!-- &nbsp - non breakspace-->
