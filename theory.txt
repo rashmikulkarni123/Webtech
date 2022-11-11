@@ -1,0 +1,3 @@
+type of css
+internal cssexternal css
+inline css
