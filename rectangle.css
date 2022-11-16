@@ -1,12 +1,35 @@
-.rect{
-    width:300px;
-    height:100px;
-    border:1px solid black;
-    padding:20px;
-}
 .rect1{
-    width:400px;
-    height:200px;
-    border:80px solid rgb(0, 0, 0);
-    padding:30px;
+    width:200px;
+    height:100px;
+    border:5px solid red;
+    margin-left: 10px ;
+    
+    
+}
+.rect2{
+    width:200px;
+    height:100px;
+    border:5px solid yellow;
+    margin-left: 30px;  
+}
+.rect3{
+    border:5px solid blue;
+    width:200px;
+    height:100px;
+
+display:inline-block
+}
+.rect4{
+    border:5px solid orangered;
+    width:200px;
+    height:100px;
+
+display:inline-block
+}
+body{
+    background-image: url('IMG_20170311_145847_1489322355179.jpg');
+    height: 500px;
+    width:100;
+background-repeat: no-repeat;
+background-size:cover ;
 }
