@@ -7,7 +7,59 @@
     <title>Document</title>
     <script>
         console.log("introduction to java script")
-        var a; //variable declaration
+        document.write("hello well come to javas script")  //for bold words h2 h2 h4 size will be reduced and bold will be ther uptill h7
+        document.write("<h1> well come to java script</h1>")
+        document.write("<h2> well come to java script</h2>")
+        document.write("<h3> well come to java script</h3>")
+        document.write("<h4> well come to java script</h4>")
+        document.write("<h5> well come to java script</h5>")
+        document.write("<h6> well come to java script</h6>")
+        document.write("<h7> well come to java script</h7> <br>") //in js for break we hud put only br intead of break
+       // alert ("calling peint statement")   //to pop up message
+       // let result= confirm("after the class are you attending the presentation")  //for ok and cancel button
+      // console.log(result)
+      let result = prompt("what is your name") //in pop up writing the name or asking the name.
+      console.log(result)
+      document.write(result)
+      if(result=="Rashmi"){
+        document.write('<br>' +result)
+      }
+      else{
+        document.write('<br>' +"java script")
+      }
+//how to pass argument to function in java script
+//this method is to display in console
+//function add(a,b) {
+    //console.log("calling display")
+    //console.log(a+b) 
+    //function which called if we want to display in the left side the we shoud use documwnt.write
+    function add(a,b) {
+        document.write("calling display", '<br>')
+        document.write(a+b)
+}
+add(10,20)
+//how to return data form functtion in jva script
+function sub(a,b) {
+    return a-b
+}
+let res = sub(20,10)
+console.log(res)
+//how to declare constant in java script
+const pi = 3.14
+console.log(pi)
+//how to peint star in java script
+function starPattern() {
+document.write("<br>")
+for(let i=0;i<3;i++) {
+    for(let j=3;j>=i;j--) {
+    document.write("@")
+}
+document.write("<br>")
+}
+}
+//event handling
+//onclick,onmouseover
+       var a; //variable declaration
         a= "java script done"  //initialization
         console.log(a)
         console.log(typeof(a))
@@ -26,10 +78,22 @@
         
         console.log(a)
         console.log(typeof(a))
-        
+        function functionname()
+    {
+
+    }
+    function display() {
+        console.log("executing funnctions in javascript")
+    }
+    display()
+    function display() {
+        console.log("executing funnctions in javascript")
+    }
         </script>
     </head>
 <body>
-    
+   <button onclick="starPattern()">print starPattern</button> 
+   <button onmouseover="starPattern()">print starPattern</button> 
+
 </body>
 </html>
